@@ -1,0 +1,195 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1ren;
+    position: fixed;
+    width: 100%;
+    height: 4em;
+    background-color: #13131b;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cabeçalho-link a{
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.cabeçalho-link a:hover{
+    color: #3790e3;
+    transition: 0.3s all;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #3790e3;
+    color: #3790e3;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    background-color: #3790e3;
+    color: #fff;
+    transition: 0.5s;
+}
+
+button{
+    color: #3790e3;
+    background: transparent;
+    border: solid 1px #3790e3;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3790e3;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.Home{
+    padding: 150px 0 0 130px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home img{
+    width: 35%;
+    height: 84%;
+    margin-right: 10em;
+
+}
+
+.Sobre{
+    padding: 150px 0 0 130px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+}
+
+#Sobre .text {
+    width: 60%;
+}
+
+.Sobre img{
+    margin-right: 6em;
+    width: 30%;
+    height: 50%;
+}
+
+.Trabalhos-e-projetos{
+    padding: 150px 0 0 130px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+}
+.Trabalho{
+    padding: 150px 0 0 130px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Trabalhos-e-projetos .text{
+    width: 60%;
+}
+
+.Trabalhos-e-projetos img{
+    margin-top: -150px;
+}
+
+.habilidades{
+    margin-top: 10em;
+    width: 70%;
+    height: 70%;
+}
+
+.text h3{
+    color: #fff;
+    font-size: 30px;
+}
+.text h1{
+    margin-top: 10px;
+    font-size: 40px;
+    color: #fff;
+}
+.text span{
+    color: #3790e3;
+}
+.text p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.redes-sociais a{
+    color: #3790e3;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.redes-socias a i{
+    width: 100px;
+}
+
+.btn{
+    margin-top: 10px;
+}
