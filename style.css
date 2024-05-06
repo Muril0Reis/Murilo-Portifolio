@@ -1,5 +1,4 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +8,7 @@
 }
 
 
-.background{
+.background {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-image: url(background.png);
     background-size: cover;
@@ -18,7 +17,7 @@
     height: 100vh;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-around;
     max-width: 100%;
@@ -31,27 +30,27 @@ header{
     background-color: #13131b;
 }
 
-.cabeçalho-link{
+.cabeçalho-link {
     display: flex;
     gap: 3rem;
     font-weight: 300;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.cabeçalho-link a{
+.cabeçalho-link a {
     color: #fff;
     font-size: 12px;
     cursor: pointer;
 }
 
-.cabeçalho-link a:hover{
+.cabeçalho-link a:hover {
     color: #3790e3;
     transition: 0.3s all;
 }
 
-.logo{
+.logo {
     height: 40px;
     width: 40px;
     background: transparent;
@@ -65,13 +64,13 @@ header{
     cursor: pointer;
 }
 
-.logo:hover{
+.logo:hover {
     background-color: #3790e3;
     color: #fff;
     transition: 0.5s;
 }
 
-button{
+button {
     color: #3790e3;
     background: transparent;
     border: solid 1px #3790e3;
@@ -82,13 +81,13 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     background-color: #3790e3;
     color: #fff;
     transition: 0.5s;
 }
 
-.Home{
+.Home {
     padding: 150px 0 0 130px;
     width: 100%;
     height: 100vh;
@@ -96,14 +95,14 @@ button:hover{
     justify-content: space-between;
 }
 
-.Home img{
+.Home img {
     width: 35%;
     height: 80%;
     margin-right: 10em;
 
 }
 
-.Sobre{
+.Sobre {
     padding: 150px 0 0 130px;
     width: 100%;
     height: 100vh;
@@ -118,13 +117,13 @@ button:hover{
     width: 60%;
 }
 
-.Sobre img{
+.Sobre img {
     margin-right: 6em;
     width: 30%;
     height: 50%;
 }
 
-.Trabalhos-e-projetos{
+.Trabalhos-e-projetos {
     padding: 150px 0 0 130px;
     width: 100%;
     height: 100vh;
@@ -134,7 +133,8 @@ button:hover{
 
     display: flex;
 }
-.Trabalho{
+
+.Trabalho {
     padding: 150px 0 0 130px;
     width: 100%;
     height: 100vh;
@@ -147,49 +147,106 @@ button:hover{
     align-items: center;
 }
 
-.Trabalhos-e-projetos .text{
+.Trabalho .text {
+    margin-top: -200px;
+}
+
+.Trabalho img {
+    margin-top: -70px;
+}
+
+
+.Trabalhos-e-projetos .text {
     width: 60%;
 }
 
-.Trabalhos-e-projetos img{
+.Trabalhos-e-projetos .text h1 {
+    margin-bottom: 50px;
+}
+
+.Trabalhos-e-projetos img {
     margin-top: -150px;
 }
 
-.habilidades{
+.habilidades {
     margin-top: 10em;
     width: 70%;
     height: 70%;
 }
 
-.text h3{
+.botao_in {
+    margin-right: 20px;
+}
+
+.botao_in button {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.wpp_button img {
+    filter: hue-rotate(100deg);
+}
+
+.wpp_button img:hover {
+    filter: grayscale(100%) brightness(200%);
+}
+
+.wpp_button {
+    color: #3790e3;
+    background: transparent;
+    border: solid 1px #3790e3;
+    padding: 5px;
+    border-radius: 100%;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.wpp_button:hover {
+    background-color: #3790e3;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.text h3 {
     color: #fff;
     font-size: 30px;
 }
-.text h1{
+
+.text h1 {
     margin-top: 10px;
     font-size: 40px;
     color: #fff;
 }
-.text span{
+
+.text span {
     color: #3790e3;
 }
-.text p{
+
+.text p {
     color: #fff;
     font-size: 20px;
     font-weight: 300;
     margin-top: 10px;
 }
 
-.redes-sociais a{
+.redes-sociais a {
     color: #3790e3;
     padding: 10px;
     margin-top: 5px;
 }
 
-.redes-socias a i{
+.redes-socias a i {
     width: 100px;
 }
 
-.btn{
+.btn {
     margin-top: 10px;
 }
