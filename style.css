@@ -215,6 +215,23 @@ button:hover {
     transition: 0.5s;
 }
 
+.curriculo {
+    color: #3790e3;
+    background: transparent;
+    border: solid 1px #3790e3;
+    padding: 6px;
+    border-radius: 15px;
+    font-size:20px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.curriculo:hover {
+    background-color: #3790e3;
+    color: #fff;
+    transition: 0.5s;
+}
+
 .text h3 {
     color: #fff;
     font-size: 30px;
